@@ -1,0 +1,148 @@
+@media only screen and (max-width: 7000px) {
+  .page-wrapper {
+    overflow: hidden;
+  }
+  .menu-{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .main-menu .navigation > li:nth-last-child(-n + 3) > ul > li > ul {
+    left: auto;
+    right: 100%;
+  }
+  .main-menu .navigation > li:nth-last-child(-n + 2) > ul {
+    left: auto;
+    right: 0;
+  }
+  .main-menu .navigation > li:nth-last-child(-n + 2) > ul > li > ul {
+    left: auto;
+    right: 100%;
+  }
+  .features-section .auto-container {
+    padding: 0 15px;
+  }
+  .main-header.header-style-two .header-info-right .phone-number {
+    display: none;
+  }
+  .main-header.header-style-two .sticky-header .auto-container {
+    padding: 0 15px;
+  }
+  .menu-{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .main-menu .navigation > li {
+    padding: 15px 30px;
+  }
+  .banner-section .banner-slider-nav {
+    display: none;
+  }
+  .main-header.header-style-one .header-upper .auto-container {
+    padding: 0 15px;
+  }
+  .header-top .right-column {
+    display: none;
+  }
+}
+.menu-{
+  display: none !important;
+}
+
+@media only screen and (max-width: 1139px) {
+  /* Default */
+
+  .nav-outer .mobile-nav-toggler {
+    display: block;
+  }
+  .main-header.header-style-two .header-info-right {
+    display: none;
+  }
+
+  .menu-{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner-section .content-box h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .about-section .year-experience {
+    position: relative;
+  }
+  .main-header .header-upper .search-btn {
+    position: relative;
+    display: block;
+  }
+
+  .main-header .header-upper .link-btn {
+    display: block;
+  }
+  .features-section .inner-container {
+    max-width: 100%;
+  }
+  .features-section .image {
+    margin-top: 0;
+  }
+  .estimate-section .wrapper-box:before {
+    right: -15px;
+  }
+  .services-section {
+    padding-bottom: 70px;
+  }
+  .menu-{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-menu .navigation > li > ul,
+  .main-menu .navigation > li > ul > li > ul {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 0;
+  }
+  .menu-{
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  br {
+    display: none;
+  }
+  .filter-tabs li .count {
+    display: none;
+  }
+  .features-section .icon-box .icon {
+    margin-bottom: 20px;
+  }
+  .skills-section .inner-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header-top .left-column .office-hour {
+    display: none;
+  }
+  .header-top .left-column,
+  .header-top .left-column .text {
+    width: 100%;
+  }
+  .footer-bottom {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-section .year-experience {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+}

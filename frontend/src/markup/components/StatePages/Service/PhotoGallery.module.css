@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.photo_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto;
+
+  background-color: white;
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+}
+
+/* Optional styles for grid layout */
+.photo_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1rem;
+}
+.image {
+  transition: transform 0.2s ease-in-out;
+}
+.image:hover {
+  transform: translateY(-10px);
+}

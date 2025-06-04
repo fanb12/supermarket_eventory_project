@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+ul li{
+    font-size: 0.6rem;
+}
+.admin{
+    font-size: 0.6rem;
+
+  justify-content: start;
+}
+.admin p{
+    margin-right: 3rem;
+}
+}
